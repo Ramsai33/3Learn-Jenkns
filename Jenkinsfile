@@ -1,13 +1,12 @@
 pipeline {
-   agent {
-      label 'workstation'
-    }
+  agent {
+    label 'workstation'
+  }
+ stages('UnitTest') {
+      stage{
+         echo 'UnitTest'
+      }
+ }
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-}
+
+ }
