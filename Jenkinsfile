@@ -2,9 +2,11 @@ pipeline {
   agent {
     label 'workstation'
   }
- stages('UnitTest') {
-      stage {
+ stages {
+      stage('UnitTest') {
+        steps {
          echo 'UnitTest'
+         }
       }
  }
 
