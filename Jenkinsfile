@@ -8,6 +8,12 @@ pipeline {
          echo 'UnitTest'
          }
       }
+      stage('Quality Check') {
+              steps {
+               echo 'Quality check'
+               }
+            }
+
  }
 
 
