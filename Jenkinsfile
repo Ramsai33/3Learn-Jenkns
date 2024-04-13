@@ -13,6 +13,11 @@ pipeline {
                echo 'Quality check'
                }
             }
+      stage('Store Repository') {
+                    steps {
+                     echo 'Store Repo'
+                     }
+                  }
 
  }
 
