@@ -3,7 +3,7 @@ pipeline {
     label 'workstation'
   }
  stages('UnitTest') {
-      stage{
+      stage {
          echo 'UnitTest'
       }
  }
