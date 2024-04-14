@@ -6,9 +6,13 @@ pipeline {
             script {
             def abc = 10
 
-           print "xyz = $abc"
+               print "xyz = $abc"
 
-        }
+             }
+              script {
+               print "xyz = $abc"
+
+                          }
          }
 
      }
