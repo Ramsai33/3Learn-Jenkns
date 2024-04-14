@@ -4,7 +4,7 @@ pipeline {
      stage('Variable') {
          steps {
             script {
-            def abc = 10
+            env.abc = 10
 
                print "xyz = $abc"
 
